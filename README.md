@@ -1,65 +1,95 @@
-# POC4 - Fetch
+# 🐱 Random Cat Images
 
-## Funcionamento do JavaScript 🖥️
-O código JavaScript é responsável por fazer a requisição à API e manipular o DOM (Document Object Model) para exibir a imagem de gato. Vamos detalhar cada parte:
+Simple project that consumes a public API to display random cat images. Every time the **"Search a Cat"** button is clicked, a new cat image is dynamically loaded on the screen.
 
-## 1. ⏳ Função async:
-O código permite que múltiplas operações sejam executadas de forma concorrente, sem necessidade de que uma operação espere a finalização da anterior:
+This project was developed with the goal of learning how to consume APIs and perform basic DOM manipulation.
 
-![image](https://github.com/user-attachments/assets/4febaec7-6ea3-4893-99ec-3868e770837b)
+---
 
+## 📸 Demo
 
-## 🌐 URL da API:
+The application has a simple interface with a central button. When the button is clicked, a new cat image is displayed.
 
-![image](https://github.com/user-attachments/assets/4c2c0db9-2388-4037-b047-746bdb24a295)
+---
 
-Essa linha define o endpoint da API que será usado para buscar a imagem.
+## 🚀 Features
 
+* Fetch random cat images
+* External API consumption
+* Dynamic image update without page reload
+* Simple and intuitive interface
 
-## 🔄 Requisição Assíncrona:
+---
 
-![image](https://github.com/user-attachments/assets/4a0f9a0c-b7d2-431e-9751-3f86425e421c)
+## 🛠️ Technologies Used
 
-O fetch é uma função que permite fazer requisições assíncronas a recursos na web, como APIs nesse exemplo.
+* HTML5
+* CSS3
+* JavaScript
+* Cat Images API
 
-## ⚠️ Tratamento de Erros:
+---
 
-![image](https://github.com/user-attachments/assets/21b815f7-65c8-4c8a-9a25-41a518c90399)
+## 🔗 API Used
 
-Se a resposta não for bem-sucedida (status diferente de 200), um erro é lançado.
+* The Cat API (or a similar cat image API)
 
+---
 
-## 📦 Processamento da Resposta:
+## 📂 Project Structure
 
-![image](https://github.com/user-attachments/assets/2420483c-c195-4ca3-911b-d307f8260d63)
+```text
+📁 cat-project
+ ┣ 📄 index.html
+ ┣ 📄 style.css
+ ┣ 📄 script.js
+ ┗ 📄 README.md
+```
 
-A resposta JSON é convertida e a URL da imagem é extraída.
+---
 
+## ▶️ How to Run the Project
 
-## 🖼️ Manipulação do DOM:
+1. Clone this repository:
 
-![image](https://github.com/user-attachments/assets/d3fa591b-a484-49b9-82d9-d5a425a456e5)
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
 
-A imagem é adicionada ao elemento especificado, permitindo que ela apareça na página.
+2. Navigate to the project folder:
 
-## 🔘 Evento de Clique no Botão
-Um evento de clique é adicionado ao botão, que chama a função fetchCatImage quando acionado:
+```bash
+cd your-repository
+```
 
-![image](https://github.com/user-attachments/assets/9986ae6e-0437-4439-975c-4fe6494c51ec)
+3. Open the `index.html` file in your browser.
 
-Selecionando o Botão:
+---
 
-	document.getElementById('fetchButton')
- 
-Essa linha seleciona o botão com o ID fetchButton.
+## 📚 Project Purpose
 
-Adicionando o Evento:
+This project aims to practice:
 
+* REST API consumption
+* Using `fetch` in JavaScript
+* DOM manipulation
+* Basic frontend project structure
 
-		.addEventListener('click', () => {
-   	 fetchCatImage('catContainer');
-     
-Quando o botão é clicado, a função fetchCatImage é chamada, passando o ID do contêiner onde a imagem será exibida, e a cada vez que o botão é pressionado, uma imagem nova é exibida. Caso queira reiniciar a sequência de imagens, recarregue a página e aperte o botão novamente.
+---
 
-Conclusão 🎉
-Esse código é uma excelente introdução à utilização de APIs e manipulação de DOM com JavaScript. Ao clicar no botão, uma nova imagem de gato aparece, tornando a experiência interativa e divertida. Sinta-se à vontade para explorar e modificar o código!
+## ✨ Future Improvements
+
+* Add a loading indicator while the image loads
+* Handle request errors
+* Allow saving favorite images
+* Improve responsive layout
+
+---
+
+## 👨‍💻 Author
+
+João Trevisol
+
+---
+
+⭐ If you liked this project, don’t forget to give the repository a star!
