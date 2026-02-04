@@ -9,8 +9,10 @@ This project was developed with the goal of learning how to consume APIs and per
 ## 📸 Demo
 
 The application has a simple interface with a central button. When the button is clicked, a new cat image is displayed.
+<img width="900" height="703" alt="image" src="https://github.com/user-attachments/assets/b90ee310-75a4-4528-938b-037cc31552e9" />
 
----
+
+
 
 ## 🚀 Features
 
@@ -19,7 +21,7 @@ The application has a simple interface with a central button. When the button is
 * Dynamic image update without page reload
 * Simple and intuitive interface
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -28,43 +30,14 @@ The application has a simple interface with a central button. When the button is
 * JavaScript
 * Cat Images API
 
----
+
 
 ## 🔗 API Used
 
 * The Cat API (or a similar cat image API)
 
----
 
-## 📂 Project Structure
 
-```text
-📁 cat-project
- ┣ 📄 index.html
- ┣ 📄 style.css
- ┣ 📄 script.js
- ┗ 📄 README.md
-```
-
----
-
-## ▶️ How to Run the Project
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-2. Navigate to the project folder:
-
-```bash
-cd your-repository
-```
-
-3. Open the `index.html` file in your browser.
-
----
 
 ## 📚 Project Purpose
 
@@ -75,21 +48,4 @@ This project aims to practice:
 * DOM manipulation
 * Basic frontend project structure
 
----
 
-## ✨ Future Improvements
-
-* Add a loading indicator while the image loads
-* Handle request errors
-* Allow saving favorite images
-* Improve responsive layout
-
----
-
-## 👨‍💻 Author
-
-João Trevisol
-
----
-
-⭐ If you liked this project, don’t forget to give the repository a star!
